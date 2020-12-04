@@ -276,7 +276,9 @@ ul li{
 @media only screen and (max-width: 720px){
 		.Header .home{
 			width: 150px;
-			padding: 15px;
+			padding-left: 10px;
+			padding-right: 0px;
+			padding-top: 20px;
 			font-size: 20px;
 		}
 		.titlesmall{
@@ -288,7 +290,7 @@ ul li{
 
 		.titlename{
 			padding-top: 125px;
-			padding-left: 110;
+			padding-left: 110px;
 			position: absolute;
 			font-size: 24px;
 			padding-bottom: 0px;
