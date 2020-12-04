@@ -275,7 +275,7 @@ ul li{
 
 @media only screen and (max-width: 720px){
 		.Header .home{
-			width: 120px;
+			width: 150px;
 			padding: 15px;
 			font-size: 20px;
 		}
@@ -288,7 +288,7 @@ ul li{
 
 		.titlename{
 			padding-top: 125px;
-			padding-left: 110
+			padding-left: 110;
 			position: absolute;
 			font-size: 24px;
 			padding-bottom: 0px;
@@ -322,6 +322,6 @@ ul li{
 		.Header .Menu-icon{
 			display: block;
 			text-align: right;
-			width: calc(90vw - 120px);
+			width: calc(90vw - 150px);
 		}
 }
