@@ -278,7 +278,7 @@ ul li{
 			width: 150px;
 			padding-left: 10px;
 			padding-right: 0px;
-			padding-top: 20px;
+			padding-top: 25px;
 			font-size: 20px;
 		}
 		.titlesmall{
@@ -292,8 +292,9 @@ ul li{
 			padding-top: 125px;
 			padding-left: 110px;
 			position: absolute;
-			font-size: 24px;
+			font-size: 30px;
 			padding-bottom: 0px;
+			padding-right: 0px;
 		}
 
 		.description{
