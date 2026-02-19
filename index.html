@@ -12,6 +12,12 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
 
+        html {
+            scroll-behavior: smooth;
+            /* Adjust this value (70px to 90px) to match your navbar height */
+            scroll-padding-top: 80px;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
             scroll-behavior: smooth;
@@ -161,9 +167,15 @@
             </div>
             <div class="md:w-2/3 text-center md:text-left">
                 <h1 class="text-5xl font-extrabold mb-4 tracking-tight">Rijin Anand</h1>
-                <p class="text-xl font-semibold text-blue-600 mb-4 tracking-wide">Associate Delivery Manager |  GIS Analyst | Spatial Data Aspirant</p>
+                <p class="text-xl font-semibold text-blue-600 mb-4 tracking-wide">Associate Delivery Manager | GIS
+                    Analyst | Spatial Data Aspirant</p>
                 <p class="text-lg text-slate-600 mb-6 leading-relaxed">
-                    Civil Engineer and GIS Specialist with over eight years of experience in GIS, mapping, and spatial data management, and two years of construction field experience. Expertise in 3D digital twin development, drone-based LiDAR and optical data acquisition, and DEM analysis for planning and infrastructure projects. Proficient in GIS development using open-source technologies as well as ArcGIS Online and ArcGIS Enterprise. Experienced in spatial databases, Total Station surveying, and end-to-end geospatial workflows. Passionate about knowledge sharing, having conducted workshops on GPS, remote sensing, and GIS..
+                    Civil Engineer and GIS Specialist with 8+ years of experience in GIS, mapping, and spatial data
+                    management, along with 2 years of hands-on construction field expertise. Specialized in 3D digital
+                    twins, drone-based LiDAR and optical surveys, and DEM analysis for infrastructure planning.
+                    Proficient in open-source GIS, ArcGIS Online, and ArcGIS Enterprise, with strong expertise in
+                    spatial databases, Total Station surveying, and end-to-end geospatial workflows. Passionate about
+                    knowledge sharing and conducting workshops on GPS, remote sensing, and GIS.
                 </p>
             </div>
         </div>
@@ -176,8 +188,8 @@
                 <p class="text-blue-100 text-[10px] uppercase tracking-widest font-semibold">Years Exp.</p>
             </div>
             <div class="border-r border-blue-400 last:border-0">
-                <p class="text-2xl font-bold text-white leading-tight">₹2 Cr+</p>
-                <p class="text-blue-100 text-[10px] uppercase tracking-widest font-semibold">Monthly Billing</p>
+                <p class="text-2xl font-bold text-white leading-tight">Dual-Stack</p>
+                <p class="text-blue-100 text-[10px] uppercase tracking-widest font-semibold">Enterprise & FOSS4G</p>
             </div>
             <div class="border-r border-blue-400 last:border-0">
                 <p class="text-2xl font-bold text-white leading-tight">15+</p>
@@ -190,36 +202,58 @@
         </div>
     </section>
 
-    <section id="projects" class="py-20 bg-white">
+    <section id="projects" class="py-10 bg-white">
         <div class="max-w-6xl mx-auto px-6">
             <h2 class="text-3xl font-bold mb-12 text-center">Key GIS Projects</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-slate-50 p-6 rounded-2xl shadow-sm border border-slate-100">
                     <div class="text-blue-600 mb-4"><i class="fas fa-vr-cardboard fa-2x"></i></div>
                     <h4 class="font-bold text-lg mb-2">3D Digital Twin</h4>
-                    <p class="text-slate-600 text-sm">Created a virtual city model for Kochi's ABD Wards to support
-                        urban planning[cite: 22].</p>
+                    <p class="text-slate-600 text-sm">Developed a 3D Digital Twin pilot for Kochi with high-resolution
+                        3D models and orthophotos to support smarter urban planning and governance.</p>
                 </div>
                 <div class="bg-slate-50 p-6 rounded-2xl shadow-sm border border-slate-100">
                     <div class="text-green-600 mb-4"><i class="fas fa-water fa-2x"></i></div>
                     <h4 class="font-bold text-lg mb-2">Groundwater Quality</h4>
-                    <p class="text-slate-600 text-sm">Conducted state-wide overlay analysis to determine drinking
-                        suitability for Kerala[cite: 57, 58].</p>
+                    <p class="text-slate-600 text-sm">Mapped groundwater and geology data, performed suitability
+                        analysis, and prepared statewide groundwater quality maps for Kerala under the Rajiv Gandhi
+                        National Drinking Water Mission - KSREC.</p>
                 </div>
                 <div class="bg-slate-50 p-6 rounded-2xl shadow-sm border border-slate-100">
                     <div class="text-purple-600 mb-4"><i class="fas fa-seedling fa-2x"></i></div>
                     <h4 class="font-bold text-lg mb-2">Agricultural Data Bank</h4>
-                    <p class="text-slate-600 text-sm">Developed a GIS database for cadastral level maps using satellite
-                        imagery[cite: 47, 48].</p>
+                    <p class="text-slate-600 text-sm">Validated Kerala’s Agricultural Data Bank using RS & GIS by
+                        building a cadastral GIS database, leading a GIS team, georeferencing and digitizing maps, and
+                        automating workflows with ArcPy.</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl shadow-sm border border-slate-100">
+                    <div class="text-purple-600 mb-4"><i class="fas fa-network-wired fa-2x"></i></div>
+                    <h4 class="font-bold text-lg mb-2">Smart City IoT Integration</h4>
+                    <p class="text-slate-600 text-sm">API Integrations for ESRI enterprise server layer for IoT data
+                        visualization for Smart City Thiruvananthapuram Limit 3D Digital Twin Project.</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl shadow-sm border border-slate-100">
+                    <div class="text-purple-600 mb-4"><i class="fas fa-road fa-2x"></i></div>
+                    <h4 class="font-bold text-lg mb-2">Kerala iROADS – PWD Road Network Mapping</h4>
+                    <p class="text-slate-600 text-sm">Executed statewide mapping of PWD road networks across Kerala for
+                        the iROADS portal, creating an accurate and structured GIS database to support road asset
+                        management and infrastructure planning.</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl shadow-sm border border-slate-100">
+                    <div class="text-purple-600 mb-4"><i class="fas fa-map-marked-alt fa-2x"></i></div>
+                    <h4 class="font-bold text-lg mb-2">GIS-Based Annual Action Plan</h4>
+                    <p class="text-slate-600 text-sm">Prepared a GIS-based Annual Action Plan for NREGS at Sulthan
+                        Bathery Block Panchayat under the National Cluster Facilitation Program, while training and
+                        empowering NREGS officials in geospatial planning and monitoring.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="map-section" class="py-5 px-5">
+    <section id="map-section" class="py-5 px-2">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-5">
-                <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Project Footprint</h2>
+                <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Major Project Footprint</h2>
             </div>
             <div class="relative bg-white p-2 rounded-[2rem] shadow-2xl border border-slate-200">
                 <div id="integrated-map"></div>
@@ -252,11 +286,52 @@
                     <p class="text-slate-600 text-sm">Spearheaded 3D Digital Twin projects and LiDAR data processing for
                         urban and maritime infrastructure.</p>
                 </div>
+                <div class="relative">
+                    <div class="absolute -left-[41px] top-1 w-4 h-4 bg-slate-300 rounded-full border-4 border-white">
+                    </div>
+                    <span class="text-slate-500 font-bold text-xs">OCT 2022 - MAY 2023</span>
+                    <h3 class="text-xl font-bold">GIS Senior Analyst</h3>
+                    <p class="text-slate-500 italic mb-2">UL Technology Solutions</p>
+                    <p class="text-slate-600 text-sm">Delivered enterprise GIS solutions by developing interactive Web
+                        GIS applications, integrating advanced spatial technologies, and managing scalable geospatial
+                        databases for efficient, data-driven outcomes.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[41px] top-1 w-4 h-4 bg-slate-300 rounded-full border-4 border-white">
+                    </div>
+                    <span class="text-slate-500 font-bold text-xs">JAN 2021 - OCT 2022</span>
+                    <h3 class="text-xl font-bold">Block GIS Coordinator</h3>
+                    <p class="text-slate-500 italic mb-2">MGNREGA, Sulthan bathery, Kerala</p>
+                    <p class="text-slate-600 text-sm">Coordinated GPS surveys, validated and analyzed spatial data,
+                        prepared maps and DPRs, developed GIS tools in QGIS and ArcGIS, and delivered training for
+                        Panchayath-level officials.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[41px] top-1 w-4 h-4 bg-slate-300 rounded-full border-4 border-white">
+                    </div>
+                    <span class="text-slate-500 font-bold text-xs">APR 2017 - DEC 2020</span>
+                    <h3 class="text-xl font-bold">Project Scientist</h3>
+                    <p class="text-slate-500 italic mb-2">Kerala State Remote Sensing and Environment Centre</p>
+                    <p class="text-slate-600 text-sm">Contributed to multiple government GIS projects, including
+                        validation of agricultural data, groundwater suitability mapping, and wetland identification,
+                        through cadastral database development, satellite image analysis, and automated geospatial
+                        workflows.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[41px] top-1 w-4 h-4 bg-slate-300 rounded-full border-4 border-white">
+                    </div>
+                    <span class="text-slate-500 font-bold text-xs">AUG 2017 - APR 2017</span>
+                    <h3 class="text-xl font-bold">GIS Analyst</h3>
+                    <p class="text-slate-500 italic mb-2">Tresreis Technologies Private Limited, Ernakulam</p>
+                    <p class="text-slate-600 text-sm">Provided civil engineering and management expertise for
+                        application development, building BIM-GIS databases, generating 3D models, designing mobile app
+                        UI, and integrating web development technologies.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="education" class="py-20 bg-slate-50">
+    <section id="education" class="py-5 bg-slate-50">
         <div class="max-w-4xl mx-auto px-6">
             <h2 class="text-3xl font-bold mb-12 text-center">Education</h2>
             <div class="space-y-12 border-l-2 border-blue-100 pl-8 relative">
@@ -265,20 +340,20 @@
                     </div>
                     <span class="text-blue-600 font-bold text-sm">2014 - 2016</span>
                     <h3 class="text-xl font-bold mt-1">M.Tech in Geoinformatics</h3>
-                    <p class="text-slate-600 font-medium">College of Engineering Trivandrum (CET) [cite: 83]</p>
+                    <p class="text-slate-600 font-medium">College of Engineering Trivandrum (CET), Kerala</p>
                 </div>
                 <div class="relative">
                     <div class="absolute -left-[41px] top-1 w-4 h-4 bg-blue-400 rounded-full border-4 border-white">
                     </div>
                     <span class="text-slate-500 font-bold text-sm">2008 - 2012</span>
                     <h3 class="text-xl font-bold mt-1">B.Tech in Civil Engineering</h3>
-                    <p class="text-slate-600 font-medium">Al Ameen Engineering College, Palakkad [cite: 85]</p>
+                    <p class="text-slate-600 font-medium">Al Ameen Engineering College, Palakkad, Kerala</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="py-20 bg-slate-50">
+    <section id="skills" class="py-5 bg-white">
         <h2 class="text-3xl font-bold mb-12 text-center">Technical Arsenal</h2>
 
         <div class="slider-container">
@@ -344,10 +419,12 @@
         </div>
     </section>
 
-    <footer class="py-12 bg-slate-900 text-white text-center">
+    <footer class="py-5 bg-slate-900 text-white text-center">
         <p class="text-slate-400 mb-4 tracking-widest text-xs font-bold">M.Tech Geoinformatics | B.Tech Civil
             Engineering</p>
         <div class="flex justify-center space-x-8 mb-6">
+            <a href="tel:+919446416040" class="hover:text-blue-400 transition" title="Call Me"><i
+                    class="fas fa-phone"></i></a>
             <a href="mailto:rijinanand@gmail.com" class="hover:text-blue-400 transition"><i
                     class="fas fa-envelope fa-lg"></i></a>
             <a href="https://www.linkedin.com/in/rijin-anand-8a186860" target="_blank"
@@ -375,27 +452,45 @@
             var projects = [
                 {
                     title: "3D Digital Twin",
-                    location: "Kochi ABD Wards",
+                    location: "Kochi Municipal Corporation ABD Wards",
                     coords: [9.9816, 76.2999],
-                    desc: "Full city-scale 3D modeling using Drone LiDAR."
+                    desc: "Full city-scale 3D modeling using Drone LiDAR and household mapping for tax revisions."
                 },
                 {
-                    title: "Annual Work Plan (NREGS)",
+                    title: "NREGS - CFP Programme",
                     location: "Sulthan Bathery",
                     coords: [11.6661, 76.2623],
-                    desc: "Strategic GIS database for block-level infrastructure."
+                    desc: "Empowering NREGS workers with GIS technology to spatially map works and preparing GIS-based annual action plans."
                 },
                 {
-                    title: "Wetland Mapping (KSREC)",
+                    title: "Web GIS portal for the Notification of Wetlands in Kerala",
                     location: "Thiruvananthapuram",
                     coords: [8.5241, 76.9366],
-                    desc: "State-wide spatial data analysis for environmental monitoring."
+                    desc: "Mapping and development of Web GIS portal for notification of Wetlands and Ramsar Sites in Kerala under Wetlands Rules.."
                 },
                 {
-                    title: "Maritime Board Mapping",
+                    title: "Maritime Board Land Mapping",
                     location: "Kozhikode South Beach",
                     coords: [11.2405, 75.7745],
-                    desc: "Asset and land mapping for maritime development."
+                    desc: "Asset and land mapping for the development of Kozhikode South Beach."
+                },
+                {
+                    title: "GIS Based Building Property Mapping",
+                    location: "Kannur Municipal Corporation",
+                    coords: [11.8770, 75.3688],
+                    desc: "GIS-based asset and building property mapping for tax revisions and urban planning, including development of a Web GIS portal."
+                },
+                {
+                    title: "iROADS State-wide Mapping",
+                    location: "Kerala PWD",
+                    coords: [8.4912, 76.9544], // PWD Headquarters, Thiruvananthapuram
+                    desc: "Mapping and asset management of 30,000+ km road network using Hybrid Enterprise & FOSS4G workflows.",
+                },
+                {
+                    title: "Vembanad Tourism Planning",
+                    location: "CWRDM / Alappuzha-Kottayam",
+                    coords: [9.5126, 76.3484], // Centered on the houseboat hub
+                    desc: "Drone-based houseboat census and spatial analysis for sustainable tourism planning and carrying capacity estimation.",
                 }
             ];
 
@@ -422,6 +517,4 @@
     </script>
 </body>
 
-
 </html>
-
